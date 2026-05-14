@@ -7,7 +7,6 @@ export default function App() {
 
     return (
         <div>
-            <h1>Login</h1>
           {isLoggedIn ? <Watchlist /> : <Login />}
         </div>
     );
